@@ -80,7 +80,17 @@ if (empty($var)){ echo "Please login to continue"; }else{echo "Welcome back <b>"
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="footer-copyright text-center py-3">
+<br>
 
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="https://github.com/ultrafastmidgetspinner/">Ultrafastmidgetspinner</a>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
   </body>
 
 </html>
