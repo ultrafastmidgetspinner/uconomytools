@@ -66,7 +66,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h1 class="mt-5">Unturned banking script</h1>
-          <p class="lead">:D</p>
+          <p class="lead"></p>
           <ul class="list-unstyled">
             <p class="lead">Using:</p>
             <li>Bootstrap 4.1.3</li>
