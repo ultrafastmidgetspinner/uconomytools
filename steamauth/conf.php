@@ -6,5 +6,5 @@ $password = "";
 $dbname = "unturned";
 $coinprefix = "$"; //leave empty if no prefix
 $coinsuffix = ""; //leave empty if no suffix
-$sitename = "Caps Project";
+$sitename = "Midgets banking stuff";
 ?>
