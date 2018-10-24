@@ -1,2 +1,2 @@
 # uconomytools
-This is a Uconomy and Uconomyitemshop tool for your users to be able to login using steam on a website to get their balance and items they can afford and that are available in your /buy store
+This is a Uconomy and Uconomyitemshop tool for your users to be able to login using steam on a website to get their balance and items they can afford and that are available in your /buy store. it will automatically add images supplied by https://unturneditems.com/ and the pricelist is supplied by your server automatically and also balances too. you find the config files in steamauth folder.
