@@ -51,8 +51,11 @@ require ('steamauth/conf.php');
 
               }  else {
                   include ('steamauth/userInfo.php');
+                  logoutbutton();
               ?>
-
+              <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a href="https://github.com/ultrafastmidgetspinner/">Ultrafastmidgetspinner</a>
+              </div>
           </ul>
         </div>
       </div>
@@ -90,6 +93,10 @@ if ($result->num_rows > 0) {
               <p><?php echo $steamprofile['steamid'];?></p><br></div>
               <p><i class="">last Updated:<br></i><br><? echo $row['lastUpdated'];?></p>
             </div>
+
+
+                    <!-- Copyright -->
+
 <div class="col-md-6"><b>Balance</b><br/><small><?php echo "$coinprefix".$row['balance']."$coinsuffix";?></small></div>
 <?php
 
@@ -140,6 +147,7 @@ $conn->close();
                           <td style='width:auto; height:auto'>" . $row["itemname"]. "</td>
                           <td style='width:auto; height:auto'>" . $row["cost"]. "</td>
                           <td style='width:auto; height:auto'>" . $row["id"]."</td>
+                          <tr></tr>
                         </tr>
                       ";
 ?>
@@ -178,7 +186,16 @@ $conn->close();
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <footer class="page-footer font-small special-color-dark pt-4">
+<div>
+        <!-- Copyright -->
 
+        <!-- Copyright -->
+<
+      </footer>
+    </div>
   </body>
+  <!-- Footer -->
 
+    <!-- Footer -->
 </html>
